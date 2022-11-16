@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <title>Quiz Application</title>
+</head>
+<body>
+    <div class="nav">
+        <h1>QuizApp</h1>
+    </div>
+    <div class="container-left">
+        <img src="https://safdarjamal.github.io/quiz-app/static/media/mind.525a3ae0.svg" alt="">
+  </div>
+    <div class="container">
+        <div id="home" class="flex-center flex-column">
+            <h1 class="title">Take Quiz</h1>
+            <form class="selectForm">
+            <label for="category">Select Category</label>
+            <select name="category" id="categ">
+              <option value="any">Any Category</option>
+              <option value="1">General Knowledge</option>
+              <option value="2">Books</option>
+              <option value="3">Film</option>
+              <option value="4">Music</option>
+              <option value="5">Musicals & Theatres</option>
+              <option value="6">Television</option>
+              <option value="7">Video Games</option>
+              <option value="8">Board Games</option>
+            </select>
+          </br>
+            <label for="type">Select Difficulty</label>
+            <select name="type" id="typ">
+              <option value="easy">Easy</option>
+              <option value="medium">Medium</option>
+              <option value="hard">Hard</option>
+            </select>
+          </br>
+          </form>
+            <a class="btn" id="playBtn" href="/play.html">play</a>
+        </br>
+            <a class="btn" href="/highscores.html">highscores</a>
+          </div>
+      </div>
+    </div>
+
+</body>
+</html>
